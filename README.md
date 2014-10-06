@@ -47,7 +47,5 @@
  * jackson json 로 검색 
  * pom.xml에 core, databind 의존성 추가
 * 실습 Resource
- * (XML) http://www.w3schools.com/xml/simple.xml
- * (XML) http://www.w3schools.com/xml/plant_catalog.xml
  * (JSON)  http://dna.daum.net/tools/pg/openapi
  
