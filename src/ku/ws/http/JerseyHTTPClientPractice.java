@@ -17,7 +17,6 @@ public class JerseyHTTPClientPractice {
 		Client client = ClientBuilder.newClient();
 		WebTarget webTarget = client.target(URL_PATH);
 		Invocation.Builder invocationBuilder = webTarget.request(MediaType.APPLICATION_XML_TYPE);
-		invocationBuilder.header("some-header", "true");
 		Response response = invocationBuilder.get();
 
 		System.out.println("Status Code: " + response.getStatus());
